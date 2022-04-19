@@ -20,4 +20,7 @@ table = {}
 for dict1_key, dict1_val in dict1.items():
     table[dict1_key] = {}
 
+    for dict2_key, dict2_val in dict2.items():
+        table[dict1_key][dict2_key] = len(elements_in_common(dict1_val, dict2_val)) / max(len(dict1_val), len(dict2_val)) *100
+
 
