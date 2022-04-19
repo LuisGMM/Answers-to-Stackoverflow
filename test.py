@@ -15,3 +15,9 @@ def elements_in_common(list1: list, list2: list) -> float:
     return elements_in_common
 
 
+table = {}
+
+for dict1_key, dict1_val in dict1.items():
+    table[dict1_key] = {}
+
+
